@@ -41,6 +41,7 @@ class Board:
         for row in self.cells:
             for cell in row:
                 if cell.calculate_next_state():
+                    self.changed_cells.add(cell)
 
     def switch_to_next_state_all(self) -> None:
         for cell in self.changed_cells:
