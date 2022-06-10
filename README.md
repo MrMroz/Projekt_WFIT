@@ -8,14 +8,8 @@ Realizacja Gry w życie w języku Python w ramach projektu zaliczającego przedm
 ## Wymagania
 Aplikacja nie wymaga żadnych zewnętrznych bibliotek do działania, jedynie do zbudowania projektu konieczny jest **cx_Freeze**.
 
-## Budowanie aplikacji
-Aby zbudować projekt samemu, należy wywołać komendę.
-```
-python setup.py build
-```
-
 ## Korzystanie z programu
-Oprócz uruchomienia pliku wykonywalnego, można uruchomić program poprzez wykonanie pliku **run.py**.
+Oprócz uruchomienia pliku wykonywalnego dostępnego w [Releases](https://github.com/MrMroz/Projekt_WFIT/releases/tag/v1.0.0), można uruchomić program poprzez wykonanie pliku **run.py**.
 
 Po włączeniu widoczna będzie plansza na której można malować klikając i przeciągając lewym kursorem myszy.
 
@@ -28,3 +22,9 @@ Po włączeniu widoczna będzie plansza na której można malować klikając i p
 - Slider pozwala ustawić częstotliwość odświeżania planszy.
 
 - Menu w górnym lewym rogu okna pozwala wczytać lub zapisać stan planszy.
+
+## Budowanie aplikacji
+Aby zbudować projekt samemu, należy wywołać komendę.
+```
+python setup.py build
+```
