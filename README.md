@@ -1,6 +1,30 @@
 # Projekt_WFIT
-Realizacja Gry w życie w języku Python (3.10.2) w ramach projektu zaliczającego przedmiot WFIT.
+Realizacja Gry w życie w języku Python w ramach projektu zaliczającego przedmiot WFIT.
 ---
-### Autorzy:
+## Autorzy:
 - M. Mazur
 - P. Mróz
+
+## Wymagania
+Aplikacja nie wymaga żadnych zewnętrznych bibliotek do działania, jedynie do zbudowania projektu konieczny jest **cx_Freeze**.
+
+## Budowanie aplikacji
+Aby zbudować projekt samemu, należy wywołać komendę.
+```
+python setup.py build
+```
+
+## Korzystanie z programu
+Oprócz uruchomienia pliku wykonywalnego, można uruchomić program poprzez wykonanie pliku **run.py**.
+
+Po włączeniu widoczna będzie plansza na której można malować klikając i przeciągając lewym kursorem myszy.
+
+- Przycisk *reset* służy do resetu planszy - ustawienia wszystkich komórek jako martwych.
+
+- Przycisk *next state* służy do manualnego wyzwalania kolejnego stanu.
+
+- Przycisk *start/stop* służy do włączania/wyłączania automatycznego zegara wyzwalającego kolejne stany.
+
+- Slider pozwala ustawić częstotliwość odświeżania planszy.
+
+- Menu w górnym lewym rogu okna pozwala wczytać lub zapisać stan planszy.

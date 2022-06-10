@@ -7,7 +7,7 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', datefmt=
 
 if __name__ == '__main__':
     root = tk.Tk()
-    root.geometry('882x728')
+    root.geometry('1400x1000')
     root.title('The game of life')
     root.iconbitmap('glider.ico') 
 
