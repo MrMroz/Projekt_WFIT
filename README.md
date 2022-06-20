@@ -23,6 +23,10 @@ Po włączeniu widoczna będzie plansza na której można malować klikając i p
 
 - Menu w górnym lewym rogu okna pozwala wczytać lub zapisać stan planszy.
 
+## Pokazowe struktury
+Aplikacja ma możliwość wczytywania i zapisywania stanu do pliku **.json** za pomocą menu rozwijanego w górnym lewym rogu okna.
+W folderze `przykladowe_struktury` znajduje się kilka wybranych przez nas struktur.
+
 ## Budowanie aplikacji
 Aby zbudować projekt samemu, należy wywołać komendę.
 ```
